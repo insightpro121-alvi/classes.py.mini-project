@@ -25,7 +25,8 @@ class User(Person):   # INHERITANCE
         self.user_id = user_id
         self.borrowed_books = []
 
-    # POLYMORPHISM (same method, different output)
+    # POLYMORPHISM (same method hoga lekin output deffirent hogi 
+    
     def show_details(self):
         print(f"[User] {self.user_id} | {self.name} | {self.email}")
 
@@ -297,7 +298,7 @@ class Library:
                 print("Invalid choice!")
 
 
-# ========================= MAIN ========================= JANGO MANGO
+#-------------------------------- MAIN ----------------- JANGO MANGO
 if __name__ == "__main__":
     filename = "library.txt"
     lib = Library(filename)
